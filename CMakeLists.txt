@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.5)
+
+project(MAYORYMENOR LANGUAGES C)
+
+add_executable(MAYORYMENOR main.c)
+
+install(TARGETS MAYORYMENOR
+    LIBRARY DESTINATION ${CMAKE_INSTALL_LIBDIR})
